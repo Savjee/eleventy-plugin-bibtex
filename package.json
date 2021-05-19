@@ -1,0 +1,29 @@
+{
+  "name": "eleventy-plugin-bibtex",
+  "version": "0.1.0",
+  "description": "Converts Bibtex references into APA-styled HTML",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savjee/eleventy-plugin-bibtex.git"
+  },
+  "keywords": [
+    "eleventy",
+    "staticgen",
+    "bibtex"
+  ],
+  "author": "Xavier Decuyper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Savjee/eleventy-plugin-bibtex/issues"
+  },
+  "homepage": "https://github.com/Savjee/eleventy-plugin-bibtex#readme",
+  "devDependencies": {
+    "autolinker": "^3.14.3",
+    "citation-js": "^0.5.1",
+    "eslint": "^7.26.0"
+  }
+}
