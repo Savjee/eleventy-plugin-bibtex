@@ -9,11 +9,23 @@ Install with npm:
 npm install --save-dev eleventy-plugin-bibtex
 ```
 
-Add to your `.eleventy.js` config file:
+## Eleventy configuration
+Add to your `.eleventy.js` config file (depending on the template language you use).
 
+**Liquid**
 ```js
-eleventyConfig
-    .addPairedShortcode("bibtex", require('eleventy-plugin-bibtex'));
+eleventyConfig.addPairedShortcode(
+  "bibtex", 
+  require('eleventy-plugin-bibtex')
+);
+```
+
+**Nunjucks**
+```js
+eleventyConfig.addPairedAsyncShortcode(
+    "bibtex",
+    require("eleventy-plugin-bibtex")
+);
 ```
 
 ## Usage
